@@ -1,0 +1,6 @@
+﻿services:
+  bytenow.browsewarden.api:
+    image: bytenow.browsewarden.api
+    build:
+      context: .
+      dockerfile: ByteNow.Browsewarden.Api/Dockerfile
